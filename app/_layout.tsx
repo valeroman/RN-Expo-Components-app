@@ -11,6 +11,7 @@ import 'react-native-reanimated';
 import "../global.css";
 import { Text } from 'react-native';
 import ThemedView from '@/presentation/shared/ThemedView';
+import ThemedText from '@/presentation/shared/ThemedText';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -32,16 +33,13 @@ export default function RootLayout() {
   }
 
   return (
-    // <GestureHandlerRootView style={{ backgroundColor: backgroundColor, flex: 1 }}>
     <GestureHandlerRootView className='bg-light-background dark:bg-dark-background'>
-      {/* <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}> */}
         <ThemedView safe margin>
-          <Text className='mt-10 text-3xl text-light-text dark:text-dark-text'>Hola Mundo</Text>
+          <ThemedText type='h1' className='mt-20'>Hola Mundo</ThemedText>
         </ThemedView>
         {/* <Stack>
       </Stack> */}
         <StatusBar style="auto" />
-      {/* </ThemeProvider> */}
     </GestureHandlerRootView>
   );
 }

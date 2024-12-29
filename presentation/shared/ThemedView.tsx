@@ -19,13 +19,14 @@ const ThemedView = ({
 }: Props) => {
 
     const safeArea = useSafeAreaInsets();
-    console.log(safeArea.top);
+    
     return (
         <View
             className={[
                 bgColor,
                 margin ? 'mx-10' : 0,
                 safe ? `pt-[${safeArea.top}px]` : 0,
+                style,
                 className,
             ].join(' ')}
         >

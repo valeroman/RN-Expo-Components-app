@@ -4,6 +4,7 @@
  */
 
 export const Colors = {
+
   light: {
     primary: '#49129c',
     secondary: '#b40086',
@@ -12,6 +13,10 @@ export const Colors = {
 
     text: '#000000',
     background: '#f5f5f5',
+
+    neonGreen: '#008800', // Verde consola 007F00, 005500, 008800
+    inputBorder: '#005500', // Fondo claro para inputs
+    border: '#CCCCCC', // Bordes para tarjetas en light mode
   },
   dark: {
     primary: '#7a4edc',
@@ -21,5 +26,9 @@ export const Colors = {
 
     text: '#ECEDEE',
     background: '#17202A',
+
+    neonGreen: '#00FF00', // Verde brillante para acentos
+    inputBorder: '#007F00', // Borde verde para inputs en dark mode
+    border: '#00AA00', // Fondo oscuro para tarjetas 00AA00, 007F00
   },
 };

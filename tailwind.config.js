@@ -17,6 +17,10 @@ module.exports = {
           tertiary: Colors.light.tertiary,
           text: Colors.light.text,
           background: Colors.light.background,
+          neonGreen: Colors.light.neonGreen,
+          inputBorder: Colors.light.inputBorder,
+          border: Colors.light.border,
+          
         },
         dark: {
           primary: Colors.dark.primary,
@@ -24,6 +28,9 @@ module.exports = {
           tertiary: Colors.dark.tertiary,
           text: Colors.dark.text,
           background: Colors.dark.background,
+          neonGreen: Colors.dark.neonGreen,
+          inputBorder: Colors.dark.inputBorder,
+          border: Colors.dark.border,
         },
       }
 

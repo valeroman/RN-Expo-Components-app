@@ -19,7 +19,7 @@ const ThemedView = ({
 }: Props) => {
 
     const safeArea = useSafeAreaInsets();
-    
+
     return (
         <View
             className={[

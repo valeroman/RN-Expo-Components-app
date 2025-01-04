@@ -35,7 +35,6 @@ export default function RootLayout() {
   }
 
   return (
-    //className='bg-light-background dark:bg-dark-background'
     <GestureHandlerRootView style={{ flex: 1 }}>
       <ThemedView className="flex-1">
         <Stack
@@ -46,7 +45,7 @@ export default function RootLayout() {
             },
             headerStyle: {
               backgroundColor: backgroundColor
-            }
+            },
           }}
         >
           <Stack.Screen
@@ -71,7 +70,6 @@ export default function RootLayout() {
         </Stack>
         <StatusBar style="auto" />
       </ThemedView>
-
     </GestureHandlerRootView>
   );
 }

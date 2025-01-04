@@ -30,7 +30,7 @@ const MenuItem = ({
     return (
         <Pressable
             onPress={() => router.push( routeName as Href)}
-            className='bg-white dark:bg-black/15 px-5 py-2 border-light-border dark:border-dark-border'
+            className='bg-light-background dark:bg-dark-background/15 px-5 py-2 border-light-border dark:border-dark-border'
             style={{
                 borderColor,
                 borderWidth: 1,

@@ -20,6 +20,9 @@ module.exports = {
           neonGreen: Colors.light.neonGreen,
           inputBorder: Colors.light.inputBorder,
           border: Colors.light.border,
+          backgroundButton: Colors.light.backgroundButton,
+          borderButton: Colors.light.borderButton,
+          textButtom: Colors.light.textButtom,
           
         },
         dark: {
@@ -31,6 +34,9 @@ module.exports = {
           neonGreen: Colors.dark.neonGreen,
           inputBorder: Colors.dark.inputBorder,
           border: Colors.dark.border,
+          backgroundButton: Colors.dark.backgroundButton,
+          borderButton: Colors.dark.borderButton,
+          textButtom: Colors.dark.textButtom,
         },
       }
 
